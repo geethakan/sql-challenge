@@ -1,7 +1,7 @@
 -- Create all the required tables in Employee_db
 -- Department table
 DROP TABLE IF EXISTS departments;
-CREATE TABLE departments (
+CREATE TABLE departments ( 
 	dept_no CHAR(4) PRIMARY KEY NOT NULL,
   	dept_name VARCHAR(30) NOT NULL
 );
